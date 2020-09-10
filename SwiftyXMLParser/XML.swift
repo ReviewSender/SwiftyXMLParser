@@ -23,6 +23,9 @@
  */
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 /// available Type in XML.Accessor subscript
 public protocol XMLSubscriptType {}
